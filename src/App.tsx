@@ -1,6 +1,7 @@
 import './App.css'
 import Layout from './Component/Layout'
 import Rooms from './Component/Rooms'
+import RoomSelection from './Component/RoomSelection'
 import './index.css'
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 
@@ -11,7 +12,7 @@ function App() {
         <Routes>
                 <Route element={<Layout/>} >
 
-                    <Route path="/rooms" element={<Rooms />} />
+                    <Route path="/rooms" element={<RoomSelection />} />
 
                 </Route>
             </Routes>

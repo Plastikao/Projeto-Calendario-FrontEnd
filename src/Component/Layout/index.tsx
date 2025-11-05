@@ -1,6 +1,5 @@
 import { ArrowLeftIcon } from 'lucide-react'
 import { Button } from '@/components/ui/button'
-import RoomSelection from '../RoomSelection'
 import { Outlet } from 'react-router-dom'
 
 const Layout = () => {
@@ -18,9 +17,10 @@ const Layout = () => {
                         </Button>
                     </div>
                     <h1 className="text-white font-bold text-left text-[1.7rem] text-shadow-black-100">
-                        <Outlet />  
+                        Reserva De Salas
                     </h1>
                 </div>
+                 <Outlet />  
             </div>
         </>
     )
