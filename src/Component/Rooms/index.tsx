@@ -42,7 +42,6 @@ const Rooms = () => {
                     RoomBorder="border-primary-orange"
                     RoomIMG="/public/SalaAzulFoto.jpg"
                 />
-                
             </section>
         </main>
     )

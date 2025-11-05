@@ -1,0 +1,30 @@
+import { ArrowLeftIcon } from 'lucide-react'
+import { Button } from '@/components/ui/button'
+
+const SchedulePages = () => {
+    return (
+        <>
+        
+            <div className="bg-background-gray w-screen h-screen relative">
+                <div className="flex bg-background-banner w-screen min-h-24  items-center shadow-shadowBanner pl-12 gap-5 absolute">
+                    <div className="flex flex-col gap-8 ">
+                        <Button
+                            variant="link"
+                            size="icon-sm"
+                            className="rounded-full p-6 cursor-pointer bg-white"
+                        >
+                            <ArrowLeftIcon />
+                        </Button>
+                    </div>
+                    <h1 className="text-white font-bold text-left text-[1.7rem] text-shadow-black-100">
+                        Reserva de Salas
+                    </h1>
+                </div>
+     
+            </div>
+    
+        </>
+    )
+}
+
+export default SchedulePages

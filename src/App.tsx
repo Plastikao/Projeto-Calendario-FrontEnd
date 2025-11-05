@@ -6,8 +6,6 @@ function App() {
     return (
         <>
             <Layout />
-
-            <div className=""></div>
         </>
     )
 }
