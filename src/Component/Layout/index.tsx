@@ -1,6 +1,6 @@
 import { ArrowLeftIcon } from 'lucide-react'
 import { Button } from '@/components/ui/button'
-import RoomSelection from './RoomSelection'
+import RoomSelection from '../RoomSelection'
 
 const Layout = () => {
     return (
@@ -9,9 +9,9 @@ const Layout = () => {
                 <div className="flex bg-background-banner w-screen min-h-24  items-center shadow-shadowBanner pl-12 gap-5 absolute">
                     <div className="flex flex-col gap-8 ">
                         <Button
-                            variant="secondary"
+                            variant="link"
                             size="icon-sm"
-                            className="rounded-full p-6 cursor-pointer "
+                            className="rounded-full p-6 cursor-pointer bg-white"
                         >
                             <ArrowLeftIcon />
                         </Button>
