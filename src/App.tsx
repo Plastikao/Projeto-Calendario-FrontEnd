@@ -1,9 +1,9 @@
 import './App.css'
 import Layout from './Component/Layout'
-import Rooms from './Component/Rooms'
 import RoomSelection from './Component/RoomSelection'
 import './index.css'
 import { BrowserRouter, Route, Routes } from "react-router-dom"
+import ModalPage from './Pages/ModalTest'
 
 function App() {
   return (
@@ -13,9 +13,10 @@ function App() {
                 <Route element={<Layout/>} >
 
                     <Route path="/rooms" element={<RoomSelection />} />
+                    <Route path="/modal" element={<ModalPage />} />
 
                 </Route>
-            </Routes>
+        </Routes>
       </BrowserRouter>
     </>
   )

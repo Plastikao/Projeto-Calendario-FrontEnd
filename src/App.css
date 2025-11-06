@@ -8,7 +8,7 @@
 }
 
 :root {
-    --primary-green: #1bcc3c;
+    --primary-green: #22C55E;
     --primary-purple:#9B48FF;
     --primary-blue:#1943CD;
     --primary-yellow:#FFAE00;
@@ -16,6 +16,7 @@
     --primary-red:#DE003F;
     --primary-orange:#fc6500;
     --primaryBackground: #494d53;
+    --secondery-background: #EDEDF0;
     --primary-foreground: oklch(1 0 0);
     --banner-background: #2b2e32;
     --banner-shadow: 0 0 20px 10px rgba(12, 12, 12, 0.589);
@@ -75,6 +76,7 @@
 @theme inline {
     --color-background: var(--background);
     --color-foreground: var(--foreground);
+    --color-secondery-background: var(--secondery-background);
     --color-card: var(--card);
     --color-card-foreground: var(--card-foreground);
     --color-popover: var(--popover);
