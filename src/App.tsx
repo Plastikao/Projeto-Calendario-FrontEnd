@@ -1,7 +1,7 @@
-import './App.css'
 import Layout from './Component/Layout'
 import RoomSelection from './Component/RoomSelection'
 import './index.css'
+import './App.css'
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import ModalPage from './Pages/ModalTest'
 
