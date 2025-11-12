@@ -1,0 +1,11 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+/* Isolando o Bootstrap em uma classe container */
+.bootstrap-scope * {
+  all: revert;
+}
+
+.bootstrap-scope {
+  all: revert;
+  font-family: inherit;
+}
