@@ -8,7 +8,7 @@ const InputBase = ({InputName, InputEmail, InputTitle}: InputProps) => {
     
     return (
         <>
-            <div className="flex flex-col gap-2">
+            <div className="flex flex-col">
                 <h2 className="text-[1.2rem]">{InputTitle}</h2>
                 <div className="w-full bg-white border-[2px] border-gray-500 rounded-md h-[4rem] content-center px-2">
                     <h2 className="text-[1.1rem]">{InputName}</h2>
